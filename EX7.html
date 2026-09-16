@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exercise 7 - Cards Columns</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <style>
+      /* Styling to match colored card borders & padding */
+      .card-custom-blue {
+        background-color: #2b7fff;
+        border: 1px solid #2b7fff;
+        padding: 15px;
+      }
+
+      .card-custom-yellow {
+        background-color: #f3c23e;
+        border: 1px solid #f3c23e;
+        padding: 15px;
+      }
+
+      .card-custom-red {
+        background-color: #d9534f;
+        border: 1px solid #d9534f;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-4">
+      <!-- Section Title -->
+      <h1 class="fw-normal mb-4">Cards Columns</h1>
+
+      <!-- Responsive Card Grid (3 Columns) -->
+      <div class="row g-4">
+        <!-- Card 1: Blue -->
+        <div class="col-12 col-md-4">
+          <div class="card card-custom-blue text-center rounded-3">
+            <img
+              src="https://images.drivencolour.com/car-images/toyota-corolla-cross.png"
+              class="card-img-top bg-white rounded-1"
+              alt="Car Image"
+            />
+            <div class="card-body p-2 text-dark mt-2">
+              <p class="card-text mb-0">Some text inside the first card</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Yellow -->
+        <div class="col-12 col-md-4">
+          <div class="card card-custom-yellow text-center rounded-3">
+            <img
+              src="https://images.drivencolour.com/car-images/toyota-corolla-cross.png"
+              class="card-img-top bg-white rounded-1"
+              alt="Car Image"
+            />
+            <div class="card-body p-2 text-dark mt-2">
+              <p class="card-text mb-0">Some text inside the first card</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Red -->
+        <div class="col-12 col-md-4">
+          <div class="card card-custom-red text-center rounded-3">
+            <img
+              src="https://images.drivencolour.com/car-images/toyota-corolla-cross.png"
+              class="card-img-top bg-white rounded-1"
+              alt="Car Image"
+            />
+            <div class="card-body p-2 text-dark mt-2">
+              <p class="card-text mb-0">Some text inside the first card</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
