@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Students Detail</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <style>
+      .orange-bg {
+        background-color: #e68a2e;
+      }
+      .card-custom {
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #f8f9fa;
+      }
+      .card-custom img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .btn-orange {
+        background-color: #e68a2e;
+        color: white;
+        border: none;
+      }
+      .btn-orange:hover {
+        background-color: #cc701b;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Orange Header Nav -->
+    <header class="orange-bg py-2 px-4 text-white">
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+        <div class="d-flex align-items-center gap-3">
+          <span class="fw-bold fs-5">FPT Education</span>
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-house-door-fill"></i> Trang chủ</a
+          >
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-book-fill"></i> Ngành học</a
+          >
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-card-heading"></i> Tuyển sinh</a
+          >
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-list-task"></i> Sinh viên</a
+          >
+        </div>
+        <div>
+          <label class="me-1">Search:</label>
+          <input
+            type="text"
+            class="form-control form-control-sm d-inline-block"
+            style="width: 180px"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Group Image Banner -->
+    <div class="orange-bg py-4 text-center">
+      <div class="container">
+        <img
+          src="https://via.placeholder.com/900x350/e68a2e/ffffff?text=FPT+Students+Group"
+          class="img-fluid rounded"
+          alt="Students Banner"
+        />
+      </div>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="container my-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-light p-2 rounded">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Students</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- Main Content: Student Cards -->
+    <div class="container mb-5">
+      <h2 class="text-center fw-bold mb-4">Students Detail</h2>
+      <div class="row g-4">
+        <!-- Student 1 -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3 shadow-sm text-center">
+            <img
+              src="https://via.placeholder.com/400x300"
+              class="card-img-top rounded mb-3"
+              alt="Student Image"
+            />
+            <p class="fw-bold mb-2">DE160182</p>
+            <div
+              class="d-flex justify-content-between align-items-center mb-3 px-3"
+            >
+              <span>Nguyễn Hữu Quốc Khánh</span>
+              <span>DaNang</span>
+            </div>
+            <div class="d-flex justify-content-around mb-3">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att1"
+                  id="absent1"
+                />
+                <label class="form-check-label" for="absent1">Absent</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att1"
+                  id="present1"
+                />
+                <label class="form-check-label" for="present1">Present</label>
+              </div>
+            </div>
+            <div><button class="btn btn-orange px-4">Submit</button></div>
+          </div>
+        </div>
+
+        <!-- Student 2 -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3 shadow-sm text-center">
+            <img
+              src="https://via.placeholder.com/400x300"
+              class="card-img-top rounded mb-3"
+              alt="Student Image"
+            />
+            <p class="fw-bold mb-2">DE160377</p>
+            <div
+              class="d-flex justify-content-between align-items-center mb-3 px-3"
+            >
+              <span>Choy Vĩnh Thiện</span>
+              <span>QuangNam</span>
+            </div>
+            <div class="d-flex justify-content-around mb-3">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att2"
+                  id="absent2"
+                />
+                <label class="form-check-label" for="absent2">Absent</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att2"
+                  id="present2"
+                />
+                <label class="form-check-label" for="present2">Present</label>
+              </div>
+            </div>
+            <div><button class="btn btn-orange px-4">Submit</button></div>
+          </div>
+        </div>
+
+        <!-- Student 3 -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3 shadow-sm text-center">
+            <img
+              src="https://via.placeholder.com/400x300"
+              class="card-img-top rounded mb-3"
+              alt="Student Image"
+            />
+            <p class="fw-bold mb-2">DE160547</p>
+            <div
+              class="d-flex justify-content-between align-items-center mb-3 px-3"
+            >
+              <span>Đỗ Nguyên Phúc</span>
+              <span>QuangNam</span>
+            </div>
+            <div class="d-flex justify-content-around mb-3">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att3"
+                  id="absent3"
+                />
+                <label class="form-check-label" for="absent3">Absent</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att3"
+                  id="present3"
+                />
+                <label class="form-check-label" for="present3">Present</label>
+              </div>
+            </div>
+            <div><button class="btn btn-orange px-4">Submit</button></div>
+          </div>
+        </div>
+
+        <!-- Student 4 -->
+        <div class="col-md-6">
+          <div class="card card-custom p-3 shadow-sm text-center">
+            <img
+              src="https://via.placeholder.com/400x300"
+              class="card-img-top rounded mb-3"
+              alt="Student Image"
+            />
+            <p class="fw-bold mb-2">DE170049</p>
+            <div
+              class="d-flex justify-content-between align-items-center mb-3 px-3"
+            >
+              <span>Lê Hoàng Minh</span>
+              <span>DaNang</span>
+            </div>
+            <div class="d-flex justify-content-around mb-3">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att4"
+                  id="absent4"
+                />
+                <label class="form-check-label" for="absent4">Absent</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="att4"
+                  id="present4"
+                />
+                <label class="form-check-label" for="present4">Present</label>
+              </div>
+            </div>
+            <div><button class="btn btn-orange px-4">Submit</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="orange-bg text-white py-4">
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap"
+      >
+        <div>
+          <h5 class="fw-bold">Our Address</h5>
+          <p class="mb-1 small">Khu đô thị FPT Đà Nẵng</p>
+          <p class="mb-1 small">
+            <i class="bi bi-telephone-fill"></i> +84023111111
+          </p>
+          <p class="mb-1 small">
+            <i class="bi bi-printer-fill"></i> +852 8765 4321
+          </p>
+          <p class="mb-0 small">
+            <i class="bi bi-envelope-fill"></i> fptudn@fpt.edu.vn
+          </p>
+        </div>
+        <div class="fs-4 d-flex gap-3">
+          <i class="bi bi-google"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-envelope"></i>
+        </div>
+      </div>
+      <div class="text-center border-top border-light mt-3 pt-2">
+        <small>&copy; Copyright 2023</small>
+      </div>
+    </footer>
+  </body>
+</html>
